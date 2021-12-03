@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="shortcut icon" href="./assets/github_alt.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    
+    <title>GitHub Card</title>
+</head>
+<body>
+    <section class="main">
+    <header class="topMenu">
+        
+        <input type="text" class="searchArea" placeholder="Digite o nome do perfil" onblur="showUser(this.value)">
+        <a class="searchBtn" onclick="showUser(this.value)"><i class="bi bi-search"></i></a>
+    </header>
+
+    <div class="cardWrap">
+        <div class="topCard">            
+
+        </div>
+
+        <div class="midCard">
+                
+            <div class="infos">
+                
+                <h1 class>NOME</h1>
+                <p class="profileName"> </p>
+                
+                <h1>LOCALIDADE</h1>
+                <p class="profileLocation"> </p>
+                
+                <h1>BIOGRAFIA</h1>
+                <p class="profileBio"> </p>
+            </div>
+
+        </div>
+
+        <div class="botCard">
+            
+                <h2 class="profileUrl"><i class="bi-github" role="img" aria-label="GitHub"></i></h2>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="menuBot">
+        <p> Todos os direitos reservados</p>
+        
+        <div class="social">
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-github"></i>
+        </div>
+        </div>
+
+    </footer>
+</section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
